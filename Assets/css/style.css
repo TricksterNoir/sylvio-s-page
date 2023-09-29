@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    min-height: 100vh;
+    height: auto;
+    align-items: center;
+}
+
+p{
+    font-size: 2rem;
+    /*font-family: 'Inconsolata', monospace;*/
+    font-family: 'Quicksand', sans-serif;
+    color: #DCDCDC;
+    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.8);
+}
+
+h2{
+    font-size: 5.5rem;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+h3{
+    font-size: 3rem;
+    font-family:'Inconsolata', monospace;
+    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.main-bg{
+    background-image: url(../img/fullbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#f2f2f2;
+    max-width: 100%;
+}
+
+/*================= Menu ====================*/
+
+#menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    border-bottom: 0.1rem solid var(--light-grey);
+    z-index: 1;
+}
+
+.menu-opt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    background: #f2f2f2;
+}
+
+.title h1{
+    font-size: 7rem;
+    color: #00FF00;
+    font-family: 'Phudu', cursive;
+    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+}
+
+/*======== Who i am ========*/
+.home-title{
+    display: contents;
+    height: auto;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*background-color: rgb(255,255,255, 0.3);*/
+    width: 90%;
+    margin: auto;
+}
+
+.description{
+    flex-basis: calc(70% - 10px);
+    max-width: 60%;
+    margin-left: 2rem;
+}
+
+.description a{
+    font-size: 2rem;
+    color: #00FF00;
+    text-decoration: underline;
+}
+
+.description a:hover{
+    color: #8FBC8F;
+    cursor: pointer;
+}
+
+.description h2{
+    font-size: 4rem;
+}
+
+.topics{
+    background-color: #001f3f;
+}
+
+.programming-languages{
+    /*flex-basis: calc(30% - 10px);*/
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr);*/
+    display: grid;
+    width: 30%;
+    margin-right: 1rem;
+}
+
+
+.img-logos2 img, .img-logos4 img{
+    float: right;
+}
+
+.img-logos1 p, .img-logos3 p{
+    float: right;
+}
+
+.img-logos1 p,.img-logos2 p, .img-logos3 p, .img-logos4 p{
+    font-size: 1.3rem;
+}
+
+.img-logos1 h4,.img-logos2 h4, .img-logos3 h4, .img-logos4 h4{
+    font-size: 2rem;
+    text-shadow: 0.2rem 0.2rem 0.4rem rgb(0, 0, 0, 0.5);
+}
+
+.img-logos1, .img-logos3{
+    display: flex;
+    border-bottom: 0.1rem solid #696969;
+}
+
+.img-logos4, .img-logos2{
+    display: flow;
+    border-bottom: 0.1rem solid #696969;
+}
+
+.landing-descricao p{
+    text-align: center;
+}
+
+.green-text{
+    color: #00FF00;
+}
+
+.landing-descricao h2{
+    font-size: 4rem;
+}
+
+.carousel-inner img {
+    display: block;
+    margin: 0 auto;
+}
+
+.container{
+    margin-bottom: 5rem;
+}
+
+/*Botão Whatsapp*/
+
+.whatsapp-link{
+    position: fixed;
+    width: 4.5rem;
+    height: 4.5rem;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    box-shadow: 0.1rem 0.1rem 0.2rem #888;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-link:hover{
+    color: #00FF7F;
+    text-decoration: none;
+}
