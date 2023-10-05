@@ -216,7 +216,12 @@ li{
 
 /*Responsividade*/
 
-@media screen and (max-width: 150rem){
+@media screen and (max-width: 1500px){
+
+    p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
 
     .home-title{
         display: flex;
@@ -233,9 +238,56 @@ li{
         text-align: center;
     }
 
+    .description{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-basis: auto;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .description a{
+        font-size: 1.2rem;
+    }
 
     .description h2{
-        font-size: 2.5rem;
+        font-size: 2.1rem;
         text-align: center;
+        width: 100%;
     }
+
+    .content{
+        display: flex;
+        width: 100%;
+    }
+
+    .programming-languages{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+    }
+
+    .programming-languages h4{
+        font-size: 1.5rem;
+    }
+
+    .programming-languages p{
+        font-size: 1.2rem;
+        text-align: left;
+    }
+
+    .img-logos4{
+        background-color: rgb(255, 255, 255, 0.3);
+    }
+
+    .landing-descricao h2{
+        font-size: 2.5rem;
+    }
+
+    .container-fluid{
+        display: none;
+    }
+
 }
